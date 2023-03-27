@@ -407,7 +407,19 @@ section {
     padding-top: 15px;
     color: #545454;
 }
-
+ 
+.hepl-p {
+    margin: 0;
+    padding-top: 25px;
+    text-align: center;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+    line-height: 23px;
+    color: #545454;
+}
 
 
 
@@ -418,12 +430,46 @@ section {
 
 }
 
-.donat-containe {
+.donat-container {
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.dog-donat-img {
+    padding: 20px;
+}
+.donat-right-bar{
+    display: flex;
+    flex-direction: column;
 }
 
-
+.credit-bank {
+    display: flex;
+    width: 349px;
+    height: 44px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    margin-top: -2px;
+}
+.credit-link {
+    text-decoration: none;
+}
+.credit{
+    width: 30px;
+    height: 23px;
+    margin: 10px 15px;
+}
+.nomber-card {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+    line-height: 23px;
+    color: #545454;
+    margin-top: 10px;
+}
 .dotat-h3 {
     font-family: "Georgia";
     font-style: normal;
@@ -437,3 +483,20 @@ section {
     text-align: center;
     color: #545454;
 }
+
+.donat-text{
+    margin: 0;
+    padding-top: 19px;
+    padding-bottom: 22px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    font-size: 15px;
+    line-height: 17px;
+    color: #545454;
+}
+
+
+
+
