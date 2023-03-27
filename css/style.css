@@ -375,6 +375,44 @@ section {
     
 }
 
+.help-box {
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+.help-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.help-colum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 61px 46px 100px 46px;
+    gap: 60px 119px;
+}
+
+.help-h3{
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    width: 310px;
+    height: 90px;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: #545454;
+}
+
+
+
+
+
+
 .donation-box {
     background: #FFFFFF;
 
