@@ -3,9 +3,15 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-image: url(../img/start-screen-gradient-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
 .header-box {
     padding: 30px;
+    
 }
 .nav-container {
     max-width: 1200px;
@@ -103,6 +109,145 @@
 .nav-link {
     text-decoration: none;
     margin-right: 0;
-    transition-duration: 0.3s;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 24px;
+    color: #CDCDCD;
+    display: inline;
+    text-align: center;
+    transition: all 0.1s ease-in-out
+}
+.nav-link:hover {
+    cursor: pointer;
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+
 }
 
+section {
+    display: block;
+}
+
+.maine-start{
+    margin-top: 90px;
+}
+
+.start-srceen-container{ 
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.not-only {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    font-size: 44px;
+    line-height: 57px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    padding-bottom: 42px;
+    width: 310px;
+    height: 114px
+}
+
+.not-only-p {
+    margin: 0;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #CDCDCD;
+}
+.not-only-form {
+    max-width: fit-content;
+}
+
+.not-only-b {
+    border: none;
+    background: none;
+}
+.not-only-link {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.06em;
+    border-radius: 100px;
+    padding: 15px 45px;
+    background: #F1CDB3;
+    margin-top: 44px;
+    color: black;
+    transition: all 0.1s ease-in-out;
+}
+
+.not-only-link:hover {
+    background: #FDDCC4;
+    
+  }
+
+  .maine-about{
+    background: #FFFFFF;
+  }
+
+.about-container {
+    display: flex;
+}
+  .about-pets{
+    margin-top: 80px;
+    margin-left: 175px;
+    margin-right: 120px;
+    margin-bottom: 114px;
+  }
+
+  .abot-left-bar {
+    margin-top: 94px;
+    width: 430px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-h1{
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    font-size: 35px;
+    line-height: 45px;
+    width: 370px;
+    height: 90px;
+    color: #545454;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.about-p1,.about-p2 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C;
+    letter-spacing: 0;
+}
+
+  .about-p1{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+.about-p2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
