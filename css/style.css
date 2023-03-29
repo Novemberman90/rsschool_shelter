@@ -4,9 +4,7 @@
     padding: 0;
 }
 
-html  {
-        scroll-behavior: smooth;
-      }
+
 
 body {
     background-image: url(../img/start-screen-gradient-background.svg);
@@ -16,6 +14,7 @@ body {
 }
 .header-box {
     padding: 30px;
+    margin-bottom: 90px;
     
 }
 .nav-container {
@@ -137,7 +136,8 @@ section {
 }
 
 .maine-start{
-    margin-top: 90px;
+    margin: 0;
+    display: flex;
 }
 
 .start-srceen-container{ 
@@ -201,6 +201,7 @@ section {
 
   .maine-about{
     background: #FFFFFF;
+    margin: 0;
   }
 
 .about-container {
@@ -259,6 +260,7 @@ section {
 
 .pets-friends {
     background: #F6F6F6;
+    margin: 0;
 }
 
 .pets-container{
@@ -389,6 +391,7 @@ section {
 .help-box {
     background: #FFFFFF;
     padding: 10px;
+    margin: 0;
 }
 
 .help-container {
@@ -438,6 +441,7 @@ section {
 
 .donation-box {
     background: #FFFFFF;
+    margin: 0;
 
 }
 
@@ -462,7 +466,14 @@ section {
     background: #F1CDB3;
     border-radius: 9px;
     margin-top: -2px;
+    transition: all 0.1s ease-in-out;
 }
+
+.credit-bank:hover {
+    background: #FDDCC4;
+
+}
+
 .credit-link {
     text-decoration: none;
 }
@@ -512,25 +523,22 @@ section {
 
 
 .fooret-box {
-    width: 1200px;
+    margin-top: 50px;
 }
+
 .footer-container{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center
 }
 
 .mail-fone, .location{
-    align-items: center;
-    margin-top: 56px;
-    margin-bottom: 60px;
-    display: flex;
     flex-direction: column;
     width: 302px;
     height: 234px;
-    margin-right: 160px;
-    margin-left: 160px;
+   
 }
 
 
@@ -603,4 +611,10 @@ section {
 
 .img-local {
     margin-right: 15px;
+}
+
+
+.fotter-puppe {
+    
+    display: flex;
 }
