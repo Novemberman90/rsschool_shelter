@@ -349,7 +349,13 @@ section {
     font-size: 17px;
     line-height: 22px;
     color: #292929;
+    transition: all 0.1s ease-in-out;
 }
+
+.pets-button:hover {
+    background-color:  #F1CDB3;
+}
+
 
 .arrow-right {
     position: relative;
