@@ -12,26 +12,98 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+/*BigMac menu*/
+
+.bigMac-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -350px;
+    width: 320px;
+    height: 100%;
+    z-index: 80;
+    background: #292929;
+    color: #FFFFFF;
+    transition: right 1s ease-in-out;
+}
+.bigMac-menu, .wrapper-bigMac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%
+}
+.bigMac-item {
+    height: 2px;
+    width: 100%;
+    background-color: #f1cdb3;
+    z-index: 5;
+}
+.bigMac-logo {
+    width: 30px;
+    height: 30px;
+    display: none;
+    z-index: 999;
+    padding: 4px 0;
+    background-color: transparent;
+    border: none;
+    gap: 3px;
+    transition: all 1s ease-in-out;
+}
+
+.bigMac-logo.active {
+    transform: rotate(90deg);
+  }
+
+  .bigMac-item {
+    height: 2px;
+    width: 100%;
+    background-color: #f1cdb3;
+    z-index: 5;
+  }
+
+  .active-item {
+    color: #FAFAFA;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #F1CDB3;
+  }
+
+  .bigMac-menu .bigMac-wrapper li:not(:last-child) {
+    margin-bottom: 43px;
+  }
+  
+  .bigMac-menu.active {
+    right: 0;
+  }
+
+  /*header box*/
+
 .header-box {
-    padding: 30px;
-    margin-bottom: 90px;
+    margin: 20px 0px 180px 0px;
     
 }
 .nav-container {
     max-width: 1200px;
     height: 60px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+}
 
 .logo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+   
     align-items: center;
+    cursor: pointer;
 }
 
 .logo a{
@@ -76,19 +148,27 @@ body {
 
 .navbar-list {
     list-style-type: none;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #545454;
+    display: flex;
+    align-items: center;
+    gap: 38px;
 }
 
 .nav-item {
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    line-height: 24px;
-    margin-right: 30px;
-    color: #CDCDCD;
-    display: inline;
-    text-align: center;
+    font-size: 15px;
+    line-height: 160%;
+    color: #545454;
+    display: flex;
+    align-items: center;
+    gap: 38px;
 }
 .nav-item:last-child {
     margin-right: 0;
@@ -642,4 +722,20 @@ section {
 .fotter-puppe {
     
     display: flex;
+}
+
+@media(max-width:576px){
+    .navbar-list{
+        display: none;
+    }
+    .navbar {
+        margin: 0;
+        padding: 0;
+    }
+    .bigMac-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+      }
 }
