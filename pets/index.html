@@ -11,7 +11,10 @@
     <header class="wrapper">
         <div class="header">
             <div class="bigMac-container">
-                <a href="http://" class="header-logo"></a>
+                <a href="http://" class="header-logo">
+                    <h2 class="header-logo">Cozy House</h2>
+                    <p class="header-text">Shelter for pets in Boston</p>
+                </a>
                
                     <div class="header-menu">
                         <div class="menu_icon">
@@ -20,16 +23,16 @@
                             <nav class="menu_body">
                                <ul class="menu_list">
                                 <li>
-                                    <a href="#"> About the shelter</a>
+                                    <a href="../index.html"> About the shelter</a>
                                  </li>
                                 <li>
-                                    <a href="http://"> Our pets</a>
+                                    <a href="../pets/index.html"> Our pets</a>
                                 </li>
                                 <li>
-                                    <a href="">Help the shelter</a>
+                                    <a href="../index.html#helpPets">Help the shelter</a>
                                 </li>
                                 <li>
-                                    <a href="http://"> Contacts</a>
+                                    <a href="../index.html#contact"> Contacts</a>
                                 </li>
 
                                </ul>                                
@@ -43,16 +46,84 @@
 
     <!--main-->
 
-    <main class="wrapper">
-        <section>
+    <main class="our-pets">
+        <div class="container">
+            <div class="pets-content">
+                <h2> Our friends who 
+                    <br>
+                    are looking for a house
+                </h2>
 
-        </section>
+                <!--kit-pets-->
+                <div class="kit-pets">
+                    <div class="pets-item">
+                        <img src="" alt="Katrine">
+                        <h3 class="name">Katrine</h3>
+                        <button class="more-pets btn" ondblclick="showModal()">Learn more</button>
+                    </div>
+                    <div class="pets-item">
+                        <img src="" alt="Jennifer">
+                        <h3 class="name">Jennifer</h3>
+                        <button class="more-pets btn" ondblclick="showModal()">Learn more</button>
+                    </div>
+                    <div class="pets-item">
+                        <img src="" alt="Woody">
+                        <h3 class="name">Woody</h3>
+                        <button class="more-pets btn" ondblclick="showModal()">Learn more</button>
+                    </div>
+                    <div class="pets-item">
+                        <img src="" alt="Sophia">
+                        <h3 class="name">Sophia</h3>
+                        <button class="more-pets btn" ondblclick="showModal()">Learn more</button>
+                    </div>
+                    <div class="pets-item"><img src="" alt="Timmy">
+                        <h3 class="name">Timmy</h3>
+                        <button class="more-pets btn" ondblclick="showModal()">Learn more</button></div>
+                    <div class="pets-item">
+                        <img src="" alt="Charly">
+                        <h3 class="name">Charly</h3>
+                        <button class="more-pets btn" ondblclick="showModal()">Learn more</button>
+                    </div>
+                    <div class="pets-item">
+                        <img src="" alt="Scarlett">
+                        <h3 class="name">Scarlett</h3>
+                        <button class="more-pets btn" ondblclick="showModal()">Learn more</button>
+                    </div>
+                    <div class="pets-item">
+                        <img src="" alt="Freddie">
+                        <h3 class="name">Freddie</h3>
+                        <button class="more-pets btn" ondblclick="showModal()">Learn more</button>
+                    </div>
+                </div>
 
+                <!--navigation-->
+                <button class="first nav-btn btn" disabled="">
+                    <img src="" alt="first">
+                </button>
+
+                <button class="back nav-btn btn" disabled="">
+                    <img src="" alt="back">
+                </button>
+
+                <button class="active-nav nav-btn btn">1</button>
+
+                <button class="next nav-btn btn">
+                    <img src="" alt="next">
+                </button>
+
+                <button class="last nav-btn btn">
+                    <img src="" alt="last">
+                </button>
+
+            </div>
+
+        </div>
+            
     </main>
             <!--Footer-->
     <footer>
         <section>
-            
+
         </section>
     </footer>
     <script src="../js/pets.js"></script>
