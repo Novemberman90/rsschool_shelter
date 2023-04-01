@@ -1,6 +1,6 @@
 *,
-* ::before,
-* ::after{
+*::before,
+*::after{
     padding: 0;
     margin: 0;
     border: 0;
@@ -16,6 +16,10 @@ html, body {
     font-family: "Georgia";
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
 
 ul, li{
     list-style: none;
@@ -23,7 +27,7 @@ ul, li{
 }
 
 .wrapper {
-min-height: 100%;
+min-height: 120px;
 }
 
 
@@ -121,6 +125,9 @@ a {
 .our-pets {
     background: #F6F6F6;
     padding-top: 80px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 .container{
     max-width: 1200px;
@@ -139,7 +146,61 @@ a {
     color: #545454;
 }
 
+.text-h2 {
+    text-align: center;
+    line-height: 2.5rem;
+    font-family: "Georgia", sans-serif;
+    font-size: 35px;
+}
 
+.kit-pets {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 40px;
+}
+
+.pets-card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    background: #FAFAFA;
+    transition: all 0.5s ease-in-out;
+}
+.pets-card:hover {
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    background-color: #FFFFFF;
+}
+.img-pet {
+    padding-bottom: 30px;
+}
+
+.more-pets {
+    margin: 30px 0;
+    padding: 15px 45px;
+    font-family: "Georgia", sans-serif;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    background-color: #FAFAFA;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.more-pets:hover {
+   background-color:  #F1CDB3;
+}
 
 
 @media (min-width:767px) {
