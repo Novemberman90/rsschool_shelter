@@ -1199,9 +1199,31 @@ margin-top: 25px;
     .about-container {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
 
+    }
+    .abot-right-bar {
+        width: 100%;
+    margin-top: 50px;
+    }
+    .abot-pets {
+        width: auto;
+        padding: 10px;
+        margin: 107px 0px 0px 0px;
+    }
+    .abot-left-bar{
+        width: 100%;
+    display: flex;
+    padding: 10px;
+    }
+    .about-h1 {
+        width: 100%;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+    .about-p2{
+        line-height: 1.5;
     }
     .pets-friends {
         width: 100%;
@@ -1238,6 +1260,7 @@ margin-top: 25px;
     }
     .help-container {
         width: 100%;
+        padding: 10px;
     }
     .help-colum {
         margin: 10px 0px;
@@ -1259,6 +1282,25 @@ margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.donat-left-bar {
+    display: flex;
+}
+.dog-donat-img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.donat-right-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.credit-bank {
+    display: flex;
+    width: auto;
+    height: fit-content;
 }
 .conatct-list {
     margin-top: 25px;
