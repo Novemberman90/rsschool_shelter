@@ -1,7 +1,10 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
+*,
+*::before,
+*::after{
     padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -650,7 +653,8 @@ a {
     }
     .menu_list{
         display: flex;
-        align-items: left;
+    align-items: left;
+    flex-direction: column;
     }
     .menu_list > li {
         padding: 10px 0px;
@@ -660,7 +664,7 @@ a {
     }
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
     .header-box {
         width: 100%;
         }
@@ -762,17 +766,17 @@ a {
     .start-srceen-container{
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .start-right-bar {
+        width: 100%;
         display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin: 0px 0px 41px 0px;
-    padding: 10px 0;
-    align-content: center;
-    text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 90px;
+    }
     }
     .not-only-p {
         width: 100%;
@@ -861,7 +865,7 @@ a {
 .fotter-puppe {
 margin-top: 25px;
 }
-}
+
 
 
 @media(max-width:568px) {
@@ -1070,10 +1074,10 @@ margin-top: 25px;
 
 @media(max-width:320px) {
     .header-box {
-        width: 100vw;
+        width: 100%;
         }
         .header {
-            width: 100vw;;
+            width: 100%;
         }
 
     .bigMac-container {
@@ -1203,24 +1207,28 @@ margin-top: 25px;
         align-items: center;
 
     }
-    .abot-right-bar {
-        width: 100%;
-    margin-top: 50px;
-    }
-    .abot-pets {
+    .about-pets {
         width: auto;
         padding: 10px;
         margin: 107px 0px 0px 0px;
-    }
+       }
     .abot-left-bar{
         width: 100%;
     display: flex;
     padding: 10px;
+    line-height: 1.5rem;
+    margin-bottom: 50px;
+    margin-top: 30px;
     }
     .about-h1 {
         width: 100%;
         margin-bottom: 20px;
         line-height: 1.5;
+    }
+    .about-p1{
+        margin-top: 35px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .about-p2{
         line-height: 1.5;
@@ -1263,7 +1271,7 @@ margin-top: 25px;
         padding: 10px;
     }
     .help-colum {
-        margin: 10px 0px;
+    margin: 30px 0px;
     padding: 0px 10px;
     display: flex;
     width: 100%;
