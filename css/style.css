@@ -204,7 +204,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-  .about-pets{
+    .about-pets{
     margin-top: 80px;
     margin-left: 175px;
     margin-right: 120px;
@@ -993,14 +993,26 @@ margin-top: 25px;
         height: auto;
         margin: 0 auto;
     }
-
-    .about-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+    .maine-about {
+        padding: 0px 10px;
     }
+    .about-pets {
+        width: 95%;
+        padding: 25px;
+        margin: 80px 0px 114px 0px;
+    }
+
+     .abot-left-bar {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 0px 25px;
+        margin-bottom: 50px;
+    }
+    .about-h1 {
+        width: auto;
+    }
+
     .pets-friends {
         width: 100%;
     }
@@ -1018,8 +1030,10 @@ margin-top: 25px;
         justify-content: center;
     }
     .pets-griend-h3 {
-        margin: 0px 0px 70px 0px;
+        margin: 50px 0px 50px 0px;
         height: fit-content;
+        width: 95%;
+    padding: 0px 10px;
     }
     .slider {
         display: flex;
@@ -1052,11 +1066,32 @@ margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 10px;
+    margin: 10px 0px 0px 0px;
+}
+.donat-left-bar {
+    display: flex;
+    justify-content: center;
+}
+.dog-donat-img {
+    width: 95%;
+    text-align: center;
+}
+.credit-bank {
+    padding: 0px 10px;
+    height: fit-content;
+}
+.nomber-card {
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
 }
 .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .conatct-list {
     margin-top: 25px;
@@ -1269,14 +1304,13 @@ margin-top: 25px;
         padding: 10px;
     }
     .help-colum {
-    margin: 30px 0px;
-    padding: 0px 10px;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
+        margin: 0;
+        margin-top: 42px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 30px;
     }
 .donat-container {
     width: 100%;
