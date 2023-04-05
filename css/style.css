@@ -1061,6 +1061,9 @@ margin-top: 25px;
     flex-direction: row;
     align-items: center;
     }
+    .help-card {
+        width: 130px;
+    }
 .donat-container {
     width: 100%;
     display: flex;
