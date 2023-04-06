@@ -254,12 +254,13 @@ a {
 }
 
 .pets-friends {
+    max-width: 1200px;
     background: #F6F6F6;
     margin: 0;
 }
 
 .pets-container{
-    max-width: 1200px;
+    width: 100;
     margin: 0 auto;
     text-align: center;
 }
@@ -790,8 +791,8 @@ a {
         width: 80%;
         height: auto;
         margin: 0 auto;
-    }
-
+    } 
+    
     .about-container {
     width: 100%;
     display: flex;
@@ -799,8 +800,9 @@ a {
 
     }
     .pets-friends {
-        width: 100%;
+        max-width: 768px;
     }
+   
     .pets-container {
         width: 100%;
         display: flex;
@@ -974,7 +976,7 @@ margin-top: 25px;
     }
     .maine-start {
         width: 100%;
-        padding: 60px 10px 0px 10px;
+        padding: 60px 0px 0px 0px;
     }
     .start-srceen-container{
         width: 100%;
@@ -1013,7 +1015,7 @@ margin-top: 25px;
         margin: 0 auto;
     }
     .maine-about {
-        padding: 0px 10px;
+        padding: 0px;
     }
     .about-pets {
         width: 95%;
@@ -1025,7 +1027,7 @@ margin-top: 25px;
         width: 100%;
         height: auto;
         text-align: center;
-        padding: 0px 25px;
+        padding: 50px 25px;
         margin: 0px 0px 50px 0px;
         
     }
@@ -1054,10 +1056,12 @@ margin-top: 25px;
         justify-content: center;
     }
     .pets-griend-h3 {
-        margin: 50px 0px 50px 0px;
+        margin: 20px 0px 20px 0px;
         height: fit-content;
-        width: 95%;
-    padding: 0px 10px;
+        width: 100%;
+        padding: 0px;
+        font-size: 25px;
+        text-align: center;
     }
     .slider {
         display: flex;
@@ -1075,7 +1079,7 @@ margin-top: 25px;
     }
     .help-box {
         width: 100%;
-        padding: 10px 0px 0px 0px;
+        padding: 0;
     }
     .help-container {
         width: 100%;
@@ -1105,7 +1109,7 @@ margin-top: 25px;
     display: flex;
     flex-direction:  column-reverse;;
     align-items: center;
-    padding: 0px 10px;
+    padding: 0px;
     margin: 10px 0px 0px 0px;
 }
 .donat-left-bar {
@@ -1345,6 +1349,7 @@ margin-top: 25px;
         margin: 50px 0px 50px 0px;
         height: fit-content;
         font-size: 26px;
+        padding: 0;
     }
     .slider {
         display: flex;
@@ -1365,7 +1370,7 @@ margin-top: 25px;
     }
     .help-container {
         width: 100%;
-        padding: 10px;
+       
     }
     .help-h3 {
         font-size: 29px;
@@ -1390,6 +1395,7 @@ margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
 }
     .fooret-box{
         max-width: 320px;
