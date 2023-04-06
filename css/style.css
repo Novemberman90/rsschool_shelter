@@ -11,25 +11,23 @@ html {
     scroll-behavior: smooth;
 }
 
-
 ul, li {
     list-style: none;
     text-align: left;
 }
-
+header {
+    background: url(../img/start-screen-gradient-background.svg), radial-gradient(100% 900% at 0% 0%, #5b483a 0%, #262425 100%), linear-gradient(0deg, #211f20, #211f20);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .header-box {
     min-height: 80px;
-    
     
 }
 .header { 
     width: 100%;
     height: 90px;
-    background: url(../img/start-screen-gradient-background.svg), radial-gradient(100% 900% at 0% 0%, #5b483a 0%, #262425 0%), linear-gradient(0deg, #211f20, #211f20);
-    background-size: cover;
-    font-family: "Arial", sans-serif;
-    color: #FFFFFF;
-    overflow: hidden;
    
 }
 
@@ -518,10 +516,10 @@ a {
 .fooret-box {
     margin-top: 50px;
     padding-top: 20px;
-            font-family: Georgia, sans-serif;
-            background: url(../img/start-screen-gradient-background.svg), radial-gradient(100% 900% at 0% 0%, #5b483a 0%, #262425 100%), linear-gradient(0deg, #211f20, #211f20);
-            background-size: cover;
-            color: #FFFFFF;
+    font-family: Georgia, sans-serif;
+    background: url(../img/start-screen-gradient-background.svg), radial-gradient(100% 900% at 0% 0%, #5b483a 0%, #262425 100%), linear-gradient(0deg, #211f20, #211f20);
+     background-size: cover;
+    color: #FFFFFF;
 }
 
 .footer-container{
@@ -667,6 +665,7 @@ a {
         }
         .header {
             width: 100%;
+            height: auto;
         }
 
     .bigMac-container {
@@ -867,12 +866,6 @@ margin-top: 25px;
 
 
 @media(max-width:568px) {
-    .header-box {
-        width: 100%;
-        }
-        .header {
-            width:100%;
-        }
 
     .bigMac-container {
         padding: 30px 40px 30px 40px;
@@ -964,6 +957,7 @@ margin-top: 25px;
     }
     .maine-start {
         width: 100%;
+        padding: 60px 10px 0px 10px;
     }
     .start-srceen-container{
         width: 100%;
@@ -1052,12 +1046,12 @@ margin-top: 25px;
         width: 100%;
     }
     .help-colum {
-        margin: 10px 0px;
+    margin: 50px 0px;
     padding: 0px 10px;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
     }
@@ -1067,12 +1061,14 @@ margin-top: 25px;
 .donat-container {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction:  column-reverse;;
     align-items: center;
     padding: 0px 10px;
     margin: 10px 0px 0px 0px;
 }
 .donat-left-bar {
+    margin: 50px 0px 0px 0px;
+    padding: 10px 0px;
     display: flex;
     justify-content: center;
 }
@@ -1109,13 +1105,6 @@ margin-top: 25px;
 
 
 @media(max-width:320px) {
-    .header-box {
-        width: 100%;
-        }
-        .header {
-            width: 100%;
-        }
-
     .bigMac-container {
         padding: 30px 40px 30px 40px;
         width: 100%;
@@ -1222,10 +1211,24 @@ margin-top: 25px;
     align-content: center;
     text-align: center;
     }
+    .not-only {
+        font-size: 32px;
+        line-height: 40px;
+        width: auto;
+    }
     .not-only-p {
         width: 100%;
         margin: 20px 0px 0px 0px;
         padding: 0px 30px;
+    }
+    .not-only-form {
+    height: fit-content;
+    width: auto;
+    margin-top: 60px;
+    }
+    .not-only-link {
+        font-size: 20px;
+        margin: 0;
     }
     .start-left-bar {
         display: flex;
@@ -1244,7 +1247,7 @@ margin-top: 25px;
 
     }
     .about-pets {
-        width: auto;
+        width: 95%;
         padding: 10px;
         margin: 107px 0px 0px 0px;
        }
@@ -1306,6 +1309,9 @@ margin-top: 25px;
         width: 100%;
         padding: 10px;
     }
+    .help-h3 {
+        width: auto;
+    }
     .help-colum {
         margin: 0;
         margin-top: 42px;
@@ -1314,6 +1320,9 @@ margin-top: 25px;
         grid-template-rows: 1fr 1fr;
         row-gap: 30px;
         column-gap: 30px;
+    }
+    .hepl-p {
+        font-size: 17px;
     }
 .donat-container {
     width: 100%;
@@ -1326,19 +1335,28 @@ margin-top: 25px;
     flex-direction: column;
     align-items: center;
 }
+.mail-fone {
+    width: auto;
+}
 .donat-left-bar {
     display: flex;
 }
 .dog-donat-img {
-    width: 100%;
+    
     text-align: center;
     margin: 0 auto;
 }
 .donat-right-bar {
-    width: 100%;
+    width: auto;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.dotat-h3 {
+    width: auto;
+    font-size: 25px;
+    margin: 0;
 }
 .credit-bank {
     display: flex;
@@ -1348,10 +1366,28 @@ margin-top: 25px;
 .conatct-list {
     margin-top: 25px;
 }
+.fooret-box {
+    padding: 0px 20px;
+}
 .location {
+    width: auto;
    margin-top: 25px;
+   display: flex;
+    align-items: center;
+}
+.location-h2 {
+    width: auto;
+    
+}
+.location-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .fotter-puppe {
 margin-top: 25px;
+}
+.fotter-puppe img {
+    width: 95%;
 }
 }
