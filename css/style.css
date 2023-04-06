@@ -646,7 +646,7 @@ a {
 }
 
 
-@media(min-width:768px) {
+@media(min-width:760px) {
     .bigMac-container {
         padding: 30px 40px 30px 40px;
     }
@@ -664,7 +664,7 @@ a {
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:760px) {
     .header-box {
         max-width: 768px;
         }
@@ -780,7 +780,7 @@ a {
 
     .not-only{
         text-align: center;
-        width: 50%;
+        
     }
     .not-only-p {
         width: 100%;
@@ -998,13 +998,13 @@ margin-top: 25px;
     text-align: center;
     }
     .not-only {
-    font-size: 30px;
-    padding: 0px 20px;
+    font-size: 34px;
+    padding: 0;
     }
     .not-only-p {
         width: 80%;
         margin: 20px 0px 0px 0px;
-        padding: 0px 30px;
+        padding: 0px ;
         text-align:  revert;
     }
     .not-only-link {
@@ -1078,7 +1078,8 @@ margin-top: 25px;
     .arrow-item {
         display: none;
     }
-    .woody {
+    .woody,
+    .jennifer {
         display: none;
     }
     .help-box {
