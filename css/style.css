@@ -26,6 +26,7 @@ header {
     background-position: center;
 }
 .header-box {
+    max-width: 1280px;
     min-height: 80px;
     
 }
@@ -125,6 +126,7 @@ a {
 }
 
 .maine-start {
+    max-width: 1280px;
     margin: 0;
     display: flex;
     padding-top: 150px;
@@ -196,8 +198,10 @@ a {
   }
 
   .maine-about{
+    max-width: 1280px;
     background: #FFFFFF;
     margin: 0;
+    
   }
 
 .about-container {
@@ -207,14 +211,12 @@ a {
     justify-content: center;
 }
     .about-pets{
-    margin-top: 80px;
-    margin-left: 175px;
-    margin-right: 120px;
-    margin-bottom: 114px;
+        width: 100%;
+    margin: 50px 0px 50px 0px;
   }
 
   .abot-left-bar {
-    margin-top: 94px;
+    margin: 50px 0px 50px 0px;
     width: 430px;
     height: 380px;
     display: flex;
@@ -258,7 +260,7 @@ a {
 }
 
 .pets-friends {
-    max-width: 1200px;
+   max-width: 1280px;
     background: #F6F6F6;
     margin: 0;
 }
@@ -389,6 +391,7 @@ a {
 }
 
 .help-box {
+    max-width: 1280px;
     background: #FFFFFF;
     padding: 10px;
     margin: 0;
@@ -438,11 +441,11 @@ a {
 .donation-box {
     background: #FFFFFF;
     margin: 0;
-
+max-width: 1280px;
 }
 
 .donat-container {
-    max-width: 1200px;
+    
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -519,6 +522,7 @@ a {
 
 
 .fooret-box {
+    max-width: 1280px;
     margin-top: 50px;
     padding-top: 20px;
     font-family: Georgia, sans-serif;
@@ -528,10 +532,10 @@ a {
 }
 
 .footer-container{
-    max-width: 1200px;
+   width: 1280px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;;
     align-items: center
 }
 
