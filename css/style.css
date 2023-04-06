@@ -231,7 +231,7 @@ a {
     margin-bottom: 0;
   }
 
-.about-p1,.about-p2 {
+.about-p1,.abot-p2 {
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
@@ -661,7 +661,7 @@ a {
 
 @media(max-width:768px) {
     .header-box {
-        width: 100%;
+        max-width: 768px;
         }
         .header {
             width: 100%;
@@ -754,13 +754,9 @@ a {
         font-size: 22px;
     }
     main {
-        width: 100%;
-    }
-    .maine-start {
-        width: 100%;
+        max-width: 768px;
     }
     .start-srceen-container{
-        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -953,7 +949,7 @@ margin-top: 25px;
         font-size: 22px;
     }
     main {
-        width: 100%;
+       max-width: 568px;
     }
     .maine-start {
         width: 100%;
@@ -1067,7 +1063,7 @@ margin-top: 25px;
     margin: 10px 0px 0px 0px;
 }
 .donat-left-bar {
-    margin: 50px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
     padding: 10px 0px;
     display: flex;
     justify-content: center;
@@ -1172,7 +1168,7 @@ margin-top: 25px;
     .menu_body::before {
         content: "";
         position: fixed;
-        width: 100%;
+        width: auto;
         top: 0;
         left: 0;
         height: 70px;
@@ -1191,7 +1187,7 @@ margin-top: 25px;
         font-size: 22px;
     }
     main {
-        width: 100%;
+        max-width: 320px;
     }
     .maine-start {
         width: 100%;
@@ -1212,14 +1208,16 @@ margin-top: 25px;
     text-align: center;
     }
     .not-only {
-        font-size: 32px;
+        font-size: 29px;
         line-height: 40px;
         width: auto;
+        padding: 0px 20px;
     }
     .not-only-p {
         width: 100%;
         margin: 20px 0px 0px 0px;
         padding: 0px 30px;
+        text-align: left;
     }
     .not-only-form {
     height: fit-content;
@@ -1239,6 +1237,9 @@ margin-top: 25px;
         margin: 0 auto;
     }
 
+    .maine-about {
+            max-width: 320px;
+    }
     .about-container {
         width: 100%;
         display: flex;
@@ -1249,28 +1250,32 @@ margin-top: 25px;
     .about-pets {
         width: 95%;
         padding: 10px;
-        margin: 107px 0px 0px 0px;
+        margin: 25px 0px 0px 0px;
        }
     .abot-left-bar{
-        width: 100%;
+    width: 100%;
     display: flex;
     padding: 10px;
     line-height: 1.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-top: 30px;
     }
     .about-h1 {
-        width: 100%;
+        font-size: 29px;
         margin-bottom: 20px;
         line-height: 1.5;
     }
     .about-p1{
-        margin-top: 35px;
+        text-align: left;
         padding-top: 25px;
         padding-bottom: 25px;
     }
-    .about-p2{
+    .abot-p2{
         line-height: 1.5;
+        text-align: left;
+    }
+    .shalter-hepl{
+        max-width: 320px;
     }
     .pets-friends {
         width: 100%;
@@ -1289,8 +1294,9 @@ margin-top: 25px;
         justify-content: center;
     }
     .pets-griend-h3 {
-        margin: 0px 0px 70px 0px;
+        margin: 50px 0px 50px 0px;
         height: fit-content;
+        font-size: 26px;
     }
     .slider {
         display: flex;
@@ -1306,7 +1312,7 @@ margin-top: 25px;
         display: none;
     }
     .help-box {
-        width: 100%;
+        max-width: 320px;
         padding: 10px 0px 0px 0px;
     }
     .help-container {
@@ -1314,11 +1320,11 @@ margin-top: 25px;
         padding: 10px;
     }
     .help-h3 {
-        width: auto;
+        font-size: 29px;
     }
     .help-colum {
         margin: 0;
-        margin-top: 42px;
+        margin-top: 70px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -1326,7 +1332,13 @@ margin-top: 25px;
         column-gap: 30px;
     }
     .hepl-p {
-        font-size: 15px;
+        font-size: 14px;
+    }
+    .donation-box {
+        max-width: 320px;
+    }
+    .fooret-box{
+        max-width: 320px;
     }
 .donat-container {
     width: 100%;
@@ -1359,13 +1371,21 @@ margin-top: 25px;
 }
 .dotat-h3 {
     width: auto;
-    font-size: 25px;
+    font-size: 26px;
     margin: 0;
+    padding: 0px 32px
+}
+.donat-text {
+    text-align: center;
+    font-size: 14px;
 }
 .credit-bank {
     display: flex;
     width: auto;
     height: fit-content;
+}
+.nomber-card {
+    font-size: 15px;
 }
 .conatct-list {
     margin-top: 25px;
@@ -1373,14 +1393,29 @@ margin-top: 25px;
 .fooret-box {
     padding: 0px 20px;
 }
-.location {
+.footer-container {
+    padding: 30px 0px 0px 0px;
+}
+.contacts-h2 {
+    font-size: 27px;
     width: auto;
-   margin-top: 25px;
-   display: flex;
+    padding: 0px 26px;
+    text-align: center;
+}
+.conatct-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.location {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .location-h2 {
-    width: auto;
+    font-size: 27px;
+    text-align: center;
     
 }
 .img-local {
@@ -1389,7 +1424,7 @@ margin-top: 25px;
 }
 .location-list {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 .fotter-puppe {
