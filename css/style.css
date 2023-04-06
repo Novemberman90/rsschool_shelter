@@ -1322,7 +1322,7 @@ margin-top: 25px;
         column-gap: 30px;
     }
     .hepl-p {
-        font-size: 17px;
+        font-size: 15px;
     }
 .donat-container {
     width: 100%;
@@ -1385,7 +1385,7 @@ margin-top: 25px;
     flex-direction: column;
 }
 .fotter-puppe {
-margin-top: 25px;
+margin-top: 50px;
 }
 .fotter-puppe img {
     width: 95%;
