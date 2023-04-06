@@ -1040,11 +1040,16 @@ margin-top: 25px;
     }
     .slider {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
     }
     .arrow-item {
+        display: none;
+    }
+    .woody {
         display: none;
     }
     .help-box {
@@ -1062,6 +1067,7 @@ margin-top: 25px;
     grid-template-rows: 1fr 1fr;
     row-gap: 30px;
     column-gap: 30px;
+    justify-items: center;
     }
     .help-h3 {
         height: auto;
@@ -1094,6 +1100,7 @@ margin-top: 25px;
 .credit-bank {
     padding: 0px 10px;
     height: fit-content;
+    width: auto;
 }
 .nomber-card {
     width: fit-content;
