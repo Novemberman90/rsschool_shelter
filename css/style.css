@@ -970,10 +970,18 @@ margin-top: 25px;
     align-content: center;
     text-align: center;
     }
+    .not-only {
+    font-size: 30px;
+    padding: 0px 20px;
+    }
     .not-only-p {
         width: 100%;
         margin: 20px 0px 0px 0px;
         padding: 0px 30px;
+        text-align:  revert;
+    }
+    .not-only-link {
+        font-size: 26px;
     }
     .start-left-bar {
         display: flex;
@@ -989,7 +997,7 @@ margin-top: 25px;
     .about-pets {
         width: 95%;
         padding: 25px;
-        margin: 80px 0px 114px 0px;
+        margin: 80px 0px 80px 0px;
     }
 
      .abot-left-bar {
@@ -997,12 +1005,17 @@ margin-top: 25px;
         height: auto;
         text-align: center;
         padding: 0px 25px;
-        margin-bottom: 50px;
+        margin: 0px 0px 50px 0px;
+        
     }
     .about-h1 {
         width: auto;
+        font-size: 29px;
     }
-
+    .about-p1,
+    .abot-p2 {
+        text-align: left;
+    }
     .pets-friends {
         width: 100%;
     }
@@ -1044,15 +1057,21 @@ margin-top: 25px;
     .help-colum {
     margin: 50px 0px;
     padding: 0px 10px;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+    }
+    .help-h3 {
+        height: auto;
+        font-size: 29px;
     }
     .help-card {
         width: 130px;
+    }
+    .hepl-p{
+        font-size: 14px;
     }
 .donat-container {
     width: 100%;
