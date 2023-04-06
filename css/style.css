@@ -756,6 +756,9 @@ a {
     main {
         max-width: 768px;
     }
+    .maine-start {
+        padding-top: 90px;
+    }
     .start-srceen-container{
         display: flex;
         flex-direction: row;
@@ -770,11 +773,15 @@ a {
         margin-bottom: 90px;
     }
 
-  
+    .not-only{
+        text-align: center;
+        width: 50%;
+    }
     .not-only-p {
         width: 100%;
         margin: 20px 0px 0px 0px;
-        padding: 0px 30px;
+        text-align: center;
+        padding: 0px 51px
     }
     .start-left-bar {
         display: flex;
@@ -786,10 +793,9 @@ a {
     }
 
     .about-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse
 
     }
     .pets-friends {
@@ -814,11 +820,10 @@ a {
     }
     .slider {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-
+        gap: 20px;
     }
-    .arrow-item {
+   
+    .woody {
         display: none;
     }
     .help-box {
@@ -829,14 +834,20 @@ a {
         width: 100%;
     }
     .help-colum {
-        margin: 10px 0px;
-    padding: 0px 10px;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
+        margin: 50px 0px;
+        padding: 0px 10px;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    .help-cadrd {
+        width: 130px;
+    }
+    .help-card {
+        width: 130px;
     }
 .donat-container {
     width: 100%;
@@ -846,14 +857,24 @@ a {
 }
 .footer-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;;
 }
 .conatct-list {
     margin-top: 25px;
 }
+.fone-link, .mail_link{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
 .location {
-   margin-top: 25px;
+   margin-top: 0px;
+}
+.adress-boston,
+.adress-london{
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 .fotter-puppe {
 margin-top: 25px;
@@ -975,7 +996,7 @@ margin-top: 25px;
     padding: 0px 20px;
     }
     .not-only-p {
-        width: 100%;
+        width: 80%;
         margin: 20px 0px 0px 0px;
         padding: 0px 30px;
         text-align:  revert;
