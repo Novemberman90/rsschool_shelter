@@ -664,7 +664,7 @@ a {
         max-width: 768px;
         }
         .header {
-            width: 100%;
+            max-width: 768px;
             height: auto;
         }
 
@@ -982,7 +982,7 @@ margin-top: 25px;
         flex-direction: column;
     }
     .start-right-bar {
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -1286,6 +1286,7 @@ margin-top: 25px;
 
     .maine-about {
             max-width: 320px;
+            padding: 0;
     }
     .about-container {
         width: 100%;
@@ -1325,10 +1326,10 @@ margin-top: 25px;
         max-width: 320px;
     }
     .pets-friends {
-        width: 100%;
+       max-width: 320px;
     }
     .pets-container {
-        width: 100%;
+        max-width: 320px;
         display: flex;
         align-items: center;
     justify-content: center;
@@ -1384,15 +1385,16 @@ margin-top: 25px;
     .donation-box {
         max-width: 320px;
     }
-    .fooret-box{
-        max-width: 320px;
-    }
-.donat-container {
+    .donat-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+    .fooret-box{
+        max-width: 320px;
+    }
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -1478,6 +1480,8 @@ margin-top: 25px;
 margin-top: 50px;
 }
 .fotter-puppe img {
-    width: 95%;
+    width: 80%;
+    height: auto;
+    text-align: center;
 }
 }
