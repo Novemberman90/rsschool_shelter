@@ -26,7 +26,7 @@ header {
     background-position: center;
 }
 .header-box {
-    max-width: 1280px;
+    width: auto;
     min-height: 80px;
     
 }
@@ -38,7 +38,7 @@ header {
 
 .bigMac-container {
     margin: 0 auto; 
-    max-width: 1200px;
+    width: 100%;
     display: flex;
      align-items: center;
     padding: 30px 0px 30px 0px;
@@ -126,7 +126,7 @@ a {
 }
 
 .maine-start {
-    max-width: 1280px;
+    width: auto;
     margin: 0;
     display: flex;
     padding-top: 150px;
@@ -141,7 +141,7 @@ a {
 .start-srceen-container { 
     display: flex;
     justify-content: space-evenly;
-    max-width: 1200px;
+    width: auto;
     margin: 0 auto;
 }
 .not-only {
@@ -198,7 +198,7 @@ a {
   }
 
   .maine-about{
-    max-width: 1280px;
+    width: auto;
     background: #FFFFFF;
     margin: 0;
     
@@ -260,13 +260,13 @@ a {
 }
 
 .pets-friends {
-   max-width: 1280px;
+    width: auto;
     background: #F6F6F6;
     margin: 0;
 }
 
 .pets-container{
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     text-align: center;
 }
@@ -391,14 +391,14 @@ a {
 }
 
 .help-box {
-    max-width: 1280px;
+    width: auto;
     background: #FFFFFF;
     padding: 10px;
     margin: 0;
 }
 
 .help-container {
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -441,17 +441,17 @@ a {
 .donation-box {
     background: #FFFFFF;
     margin: 0;
-max-width: 1280px;
 }
 
 .donat-container {
-    
+    width: auto;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 .dog-donat-img {
     padding: 20px;
+    width: auto;
 }
 .donat-right-bar{
     display: flex;
@@ -522,7 +522,7 @@ max-width: 1280px;
 
 
 .fooret-box {
-    max-width: 1280px;
+    width: auto;
     margin-top: 50px;
     padding-top: 20px;
     font-family: Georgia, sans-serif;
@@ -532,7 +532,7 @@ max-width: 1280px;
 }
 
 .footer-container{
-   width: 1280px;
+    width: auto;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;;
