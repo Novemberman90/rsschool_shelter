@@ -668,11 +668,12 @@ a {
     }
     .pets-container{
         display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    width: auto;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
     
     }
     .pets-griend-h3 {
