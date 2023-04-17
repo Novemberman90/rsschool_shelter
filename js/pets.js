@@ -10,3 +10,14 @@ if(iconMenu) {
 
 }
 
+const LEFT_BTN = document.querySelector("#btn-left");
+const RIGHT_BTN = document.querySelector("#btn-right");
+
+function pushBtn() {
+    alert("left");
+            
+}
+
+LEFT_BTN.addEventListener("click", pushBtn);
+RIGHT_BTN.addEventListener("click", pushBtn);
+
