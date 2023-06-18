@@ -281,7 +281,12 @@ a {
     height: 52px;
     border: 2px solid #F1CDB3;
     border-radius: 50px;
-    margin-top: 130px;
+    position: absolute;
+   /* top: 50%;*/
+    margin-top: -26px;
+    background-image: url(../img/ArrowLeft.png);
+    background-position: center;
+    background-repeat: no-repeat;
     transition: all 0.2s ease-in-out;
 }
 
@@ -291,10 +296,13 @@ a {
    
 }
 
-.arrow-left {
-    position: relative;
-    top: 12px;
-    left: 0px;
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+    transform: scale(-1, 1);
 }
 
 .slider{
