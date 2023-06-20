@@ -289,6 +289,7 @@ a {
 
   /*btn arrow-item*/
 
+
 .arrow-item {
     width: 52px;
     height: 52px;
@@ -409,7 +410,6 @@ a {
 
 .help-box {
     width: auto;
-    background:var( --color-light-l);
     padding: 10px;
     margin: 0;
 }
@@ -746,8 +746,23 @@ a {
         justify-content: space-around;
     }
 
+    .pets-container {
+        padding: 0 30px;
+    }
+
+    .pets__slider {
+        padding: 0 64px;
+    }
+
+    .pets-griend-h3 {
+        margin: 0 auto;
+        height: 170px;
+    }
+
     .donat-container {
-        padding: 0px 15px 20px 15px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .dog-donat-img {
@@ -990,19 +1005,13 @@ a {
         display: flex;
         gap: 20px;
     }
-
+    
    .arrow-item {
-    display: none;
-
+        top: 450px;
    }
 
     .woody {
         display: none;
-    }
-
-    .help-box {
-        width: 100%;
-        padding: 10px 0px 0px 0px;
     }
 
     .help-container {
@@ -1010,14 +1019,9 @@ a {
     }
 
     .help-colum {
-        margin: 50px 0px;
-        padding: 0px 10px;
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        justify-items: center;
     }
 
     .help-cadrd {
@@ -1028,12 +1032,12 @@ a {
         width: 130px;
     }
 
-.donat-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .donat-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+   
 
 .footer-container {
     display: flex;
@@ -1064,6 +1068,78 @@ a {
 .fotter-puppe {
 margin-top: 25px;
 }
+
+/*carousel*/
+.pets__slider {
+    padding: 0;
+  }
+
+  .pers__btn {
+    top: auto;
+    bottom: -60px;
+    margin: 0;
+  }
+
+  .pets__list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px 40px;
+  }
+
+  .footer__wrapper {
+    padding-left: 0;
+  }
+
+  .carousel {
+    display: flex;
+    left: -270px;
+    position: relative;
+  }
+
+  .item,
+  .pets__wrapper {
+    width: 270px;
+  }
+
+  .carousel-wrapper {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+
+  @keyframes move-right {
+    from {
+      left: -270px;
+    }
+    to {
+      left: -540px;
+    }
+  }
+
+  .transition-right {
+    animation-name: move-right;
+    animation-duration: 1s;
+  }
+
+  @keyframes move-left {
+    from {
+      left: -270px;
+    }
+    to {
+      left: 0px;
+    }
+  }
+
+  .pets__wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pets__wrapper .pets__card {
+    display: none;
+  }
+
+  .pets__wrapper .pets__card:first-child {
+    display: block;
+  }
+
 }
 
 
