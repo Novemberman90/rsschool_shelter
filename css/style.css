@@ -1289,7 +1289,6 @@ margin-top: 25px;
         text-align: center;
         padding: 50px 25px;
         margin: 0px 0px 50px 0px;
-        
     }
     .about-h1 {
         width: auto;
@@ -1331,13 +1330,12 @@ margin-top: 25px;
     justify-content: space-around;
 
     }
-    .arrow-item {
-        display: none;
-    }
-    .woody,
+  
+   /* .woody,
     .jennifer {
         display: none;
-    }
+    }*/
+
     .help-box {
         width: 100%;
         padding: 0;
@@ -1618,10 +1616,15 @@ margin-top: 25px;
         max-width: 320px;
         display: flex;
         align-items: center;
-    justify-content: center;
-    flex-direction: column;
+        justify-content: center;
+        flex-direction: column;
 
     }
+    .rest-pets {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
     .pets-text {
         width: 100%;
         display: flex;
@@ -1632,6 +1635,7 @@ margin-top: 25px;
         height: fit-content;
         font-size: 24px;
         padding: 0;
+        letter-spacing: 0.3px;
     }
     .slider {
         display: flex;
@@ -1639,13 +1643,7 @@ margin-top: 25px;
         align-items: center;
 
     }
-    .jennifer,
-    .woody {
-        display: none;
-    }
-    .arrow-item {
-        display: none;
-    }
+    
     .help-box {
         max-width: 320px;
         padding: 10px 0px 0px 0px;
@@ -1702,13 +1700,12 @@ margin-top: 25px;
 }
 .donat-right-bar {
     width: auto;
-    margin: 0;
+    margin: 0px 0px 20px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .dotat-h3 {
-    width: auto;
     font-size: 24px;
     margin: 0;
     padding: 0px 32px
@@ -1734,7 +1731,6 @@ margin-top: 25px;
 }
 .contacts-h2 {
     font-size: 27px;
-    width: auto;
     padding: 0px 26px;
     text-align: center;
 }
