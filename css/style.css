@@ -1106,40 +1106,40 @@ a {
 
    
 
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;;
-}
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;;
+    }
 
-.conatct-list {
+    .conatct-list {
+        margin-top: 25px;
+    }
+
+    .fone-link, .mail_link{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .location {
+    margin-top: 0px;
+    }
+
+    .adress-boston,
+    .adress-london{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .fotter-puppe {
     margin-top: 25px;
-}
+    }
 
-.fone-link, .mail_link{
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-.location {
-   margin-top: 0px;
-}
-
-.adress-boston,
-.adress-london{
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-.fotter-puppe {
-margin-top: 25px;
-}
-
-/*carousel*/
-.pets__slider {
-    padding: 0;
-  }
+    /*carousel*/
+    .pets__slider {
+        padding: 0;
+    }
 
   .pers__btn {
     top: auto;
@@ -1359,7 +1359,7 @@ margin-top: 25px;
     }
     .about-h1 {
         width: auto;
-        font-size: 29px;
+        font-size: 26px;
     }
     .about-p1,
     .abot-p2 {
