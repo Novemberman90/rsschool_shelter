@@ -24,6 +24,10 @@ body {
     overflow-x: hidden;
 }
 
+body._lock {
+    overflow: hidden;
+}
+
 ul, li {
     list-style: none;
     text-align: left;
