@@ -19,19 +19,20 @@
     width: 100%;
     height: 100%;
   }
-  
-  .card-pets__modal.open {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
   .card-pets__modal__body {
     background: #fafafa;
     border-radius: 9px;
     max-width: 900px;
     position: relative;
   }
+
+  .card-pets__modal.open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
   
   .modal_img {
     width: 500px;
@@ -116,9 +117,9 @@
   }
   
   .close:after {
-    content: 'X';
+    content: '';
     position: absolute;
-    background: url(../icons/icon-close.svg);
+    background: url(../img/icon-close.svg);
     width: 12px;
     height: 12px;
     left: 50%;
@@ -139,13 +140,38 @@
       display: block;
       margin-right: 0px;
     }
-  
-    .main .menu__toggle svg line {
-      stroke: #f1cdb3;
-    }
-  
-    .menu__toggle svg line {
-      stroke: #000;
-    }
+
+    .card-pets__modal {
+      padding: 40px;
+  }
+    
+    .modal_content {
+      width: 100%;
+  }
+
+      .modal_img {
+      display: none;
+  }
+
+  .modal_title {
+    text-align: center;
+  }
+
+  .modal_subtitle {
+    margin-bottom: 20px;
+}
+
+.modal_description {
+  font-size: 13px;
+  text-align: justify;
+  margin-bottom: 24px;
+}
+
+    .close {
+      right: -26px;
+      top: -54px;
+  }
+
+
   }
   
