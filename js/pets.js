@@ -1,14 +1,74 @@
 // burger 
 
 const iconMenu = document.querySelector('.menu_icon');
+const menuBody = document.querySelector('.menu_body');
 if(iconMenu) {
-    const menuBody = document.querySelector('.menu_body');
     iconMenu.addEventListener('click', function (e) {
       document.body.classList.toggle('_lock');
         iconMenu.classList.toggle('_active');
         menuBody.classList.toggle('_active');
     });
+};
+
+
+const closeMenu = () => {
+  iconMenu.classList.toggle('_active');
+   menuBody.classList.add('_active');
+};
+
+document.body.addEventListener("click", (e) => {
+  if (
+    e.target.closest('.menu_icon') == null && 
+    e.target.closest('.menu_body') != menuBody
+  )
+  {closeMenu()}
+});
+
+menuBody.addEventListener('click', () => {
+  if (menuBody.classList.contains('active')) {
+    closePopup();
+  } else {
+    iconMenu.classList.remove('_active');
+    menuBody.classList.remove('_active');
+    document.body.classList.remove('_lock');
+  }
+});
+
+const menuLinks = document.querySelectorAll('a[href^="#"]');
+for (let menuLinks of menuLinks) {
+  menuLinks.addEventListener("click", function (e){
+    e.preventDefault();
+    const id = menuLinks.getAttribute('href');
+
+    closeMenu();
+
+    document.querySelector(id).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    })
+  });
+/*
+  function onMenuLinkClck(e) {
+    const menuLink = e.target;
+    if(menuLink.getAttribute('a[href^="#"]')){
+        const gotoBlock = document.querySelector(menuLink.getAttribute('href'));
+        const gotoBlockValue = gotoBlock.getBoundingClientRect().top + scrollTop  - document.querySelector('header').offsetHeight;
+
+      if(menuBody.classList.contains('_active')) {
+        document.body.classList.remove('_lock');
+        iconMenu.classList.remove('._active');
+        menuBody.classList.remove('._active');
+      };
+
+        window.scrollTo({
+          top: gotoBlockValue,
+          behavior: smooth
+        });
+        e.preventDefault();
+    }
+  }*/
 }
+
 
 //popup
 
