@@ -12,8 +12,8 @@ if(iconMenu) {
 
 
 const closeMenu = () => {
-  iconMenu.classList.toggle('_active');
-   menuBody.classList.add('_active');
+  iconMenu.classList.remove('_active');
+   menuBody.classList.remove('_active');
 };
 
 document.body.addEventListener("click", (e) => {
@@ -35,18 +35,19 @@ menuBody.addEventListener('click', () => {
 });
 
 const menuLinks = document.querySelectorAll('a[href^="#"]');
-for (let menuLinks of menuLinks) {
-  menuLinks.addEventListener("click", function (e){
+for (let menuLink of menuLinks) {
+  menuLink.addEventListener("click", function (e){
     e.preventDefault();
-    const id = menuLinks.getAttribute('href');
+    const id = menuLink.getAttribute('href');
 
     closeMenu();
 
-    document.querySelector(id).scrollIntoView({
+    document.querySelector(id).scrollIntoView ({
       behavior: 'smooth',
       block: 'start',
-    })
+    });
   });
+}
 /*
   function onMenuLinkClck(e) {
     const menuLink = e.target;
@@ -67,7 +68,7 @@ for (let menuLinks of menuLinks) {
         e.preventDefault();
     }
   }*/
-}
+
 
 
 //popup
