@@ -84,9 +84,7 @@ min-height: 120px;
 .header-text-p:hover {
     opacity: 0.4;
     cursor: pointer;
-    
 }
-
 
 .menu_icon{
     display: none;
@@ -273,7 +271,6 @@ a {
            
         }
         
-        
         .conatct-list,
         .location-list {
             list-style: none;
@@ -324,9 +321,6 @@ a {
             color: #FDDCC4;
          }
         
-        
-        
-        
         .location-h2{
             margin: 0;
             width: 270px;
@@ -376,23 +370,6 @@ a {
             display: flex;
         }
 
-                
-
-@media (min-width:767px) {
-    .bigMac-container {
-        padding: 30px 40px 30px 40px;
-    }
-    .menu_list{
-        display: flex;
-        align-items: left;
-    }
-    .menu_list > li {
-        padding: 10px 0px;
-    }
-    .our-pets {
-        width: 100%;
-    }
-}
 
 @media(max-width:1196px) {
     .wrapper {
@@ -620,6 +597,21 @@ margin-top: 25px;
 }
 }
     /*767*/
+    @media (min-width:767px) {
+        .bigMac-container {
+            padding: 30px 40px 30px 40px;
+        }
+        .menu_list{
+            display: flex;
+            flex-direction: column;
+        }
+        .menu_list > li {
+            padding: 10px 0px;
+        }
+        .our-pets {
+            width: 100%;
+        }
+    }
 
 @media(max-width:767px) {
     .wrapper {
