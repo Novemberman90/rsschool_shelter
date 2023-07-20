@@ -49,17 +49,33 @@
     </header>
 
     <!--main-->
-
-    <main class="our-pets">
+    <section class="section pets-page">
+        <div class="container">
+          <h1 class="title center">
+            Our friends who <br />are looking for a house
+          </h1>
+          <div class="pets__list card-wrapper"></div>
+  
+          <div class="pagination">
+            <div id="first_pagination" class="pagination__btn prev">&lt;&lt;</div>
+            <div id="prev_pagination" class="pagination__btn prev">&lt;</div>
+            <div id="current_pagination" class="pagination__btn count">1</div>
+            <div id="next_pagination" class="pagination__btn next">&gt;</div>
+            <div id="last_pagination" class="pagination__btn next">&gt;&gt;</div>
+          </div>
+        </div>
+      </section>
+      
+    <!--   <main class="our-pets">
         <div class="container">
             <div class="pets-content">
-                <h2 class="text-h2"> Our friends who 
+              <h2 class="text-h2"> Our friends who 
                     <br>
                     are looking for a house
-                </h2>
+                </h2>-->
 
                 <!--kit-pets-->
-                <div class="kit-pets">
+               <!-- <div class="kit-pets">
                     <div class="pets-card">
                         <img src="../img/pets-katrine.png" class="img-pet" alt="Katrine">
                         <h3 class="name">Katrine</h3>
@@ -99,10 +115,10 @@
                         <h3 class="name">Freddie</h3>
                         <button class="more-pets btn" ondblclick="showModal()">Learn more</button>
                     </div>
-                </div>
+                </div>-->
 
                 <!--navigation-->
-                <div class="navigation-kit"> 
+             <!--   <div class="navigation-kit"> 
                     <button button class="first-btn nav-btn" disabled="">
                         <img src="../img/last.svg" alt="first">
                     </button>
@@ -125,7 +141,7 @@
 
         </div>
             
-    </main>
+    </main>-->
             <!--Footer-->
                               
 
@@ -173,8 +189,10 @@
 
 
     </footer>
-    <script src="../js/petsDataBase.js"></script>
+    
+    <script src="../js/pets_2_DataBase.js"></script>
     <script src="../js/pets2.js"></script>
+   <script src="../js/pagination_pest.js"></script>
     
   
 </body>
